@@ -27,6 +27,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "packagerOps": {
+      "sourceExts": [
+        "ts",
+        "tsx"
+      ],
+      "transformer": "node-modules/react-native-typescript-transformer/index.js"
     }
   }
 }
