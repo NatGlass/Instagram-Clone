@@ -3,7 +3,9 @@ import React from "react";
 import Header from "../components/Header";
 import Stories from "../components/home/Stories";
 import Post from "../components/home/Post";
+import BottomNav from "../components/home/BottomNav";
 import { Posts } from "../data/Posts";
+import { bottomNavIcons } from "../components/home/BottomNav";
 
 const Home = () => {
   return (
@@ -15,6 +17,7 @@ const Home = () => {
           <Post post={post} key={index} />
         ))}
       </ScrollView>
+      <BottomNav icons={bottomNavIcons} />
     </SafeAreaView>
   );
 };
