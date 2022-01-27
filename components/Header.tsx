@@ -48,6 +48,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
     marginHorizontal: 20,
+    // must have margin top on android devices as only ios supports safe view //
+    marginTop: 15,
   },
 
   logo: {

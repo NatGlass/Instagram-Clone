@@ -18,6 +18,6 @@ export const Users = [
     {
         user: "Jeff",
         image: 'https://images.pexels.com/photos/556666/pexels-photo-556666.jpeg?cs=srgb&dl=pexels-luizclas-556666.jpg&fm=jpg'
-    }
+    },
     
 ]

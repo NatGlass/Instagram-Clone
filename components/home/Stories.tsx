@@ -5,7 +5,7 @@ import { Users } from "../../data/Users";
 
 const Stories = () => {
   return (
-    <View style={{ marginBottom: 15 }}>
+    <View style={{ marginBottom: 10 }}>
       <ScrollView
         horizontal={true}
         showsHorizontalScrollIndicator={false}
@@ -30,8 +30,8 @@ export default Stories;
 
 const styles = StyleSheet.create({
   storyContainer: {
-    width: "100%",
-    justifyContent: "space-between",
+    minWidth: "100%",
+    justifyContent: "center",
     alignItems: "center",
   },
 
@@ -40,7 +40,9 @@ const styles = StyleSheet.create({
     height: 70,
     borderRadius: 50,
     marginBottom: 3,
-    borderWidth: 3,
-    borderColor: "lightblue",
+    marginLeft: 4,
+    marginRight: 4,
+    borderWidth: 2,
+    borderColor: "white",
   },
 });
